@@ -2,7 +2,7 @@ name: Template Testing Unix .NET
 
 on:
   workflow_call:
-    inputs:
+    inputs: 
       os:
         required: true
         type: string
