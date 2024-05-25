@@ -2,7 +2,7 @@ name: Template Testing Windows .NET Framework
 
 on:
   workflow_call:
-    inputs:
+    inputs: 
       architecture:
         required: true
         type: string
