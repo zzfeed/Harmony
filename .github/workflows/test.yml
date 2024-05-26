@@ -1,5 +1,4 @@
 name: Platform Tests
-
 on:
   push:
     branches:
