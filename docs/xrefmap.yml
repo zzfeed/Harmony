@@ -1052,15 +1052,15 @@ references:
   isSpec: "True"
   fullName: HarmonyLib.AccessTools.MethodDelegate
   nameWithType: AccessTools.MethodDelegate
-- uid: HarmonyLib.AccessTools.MethodDelegate``1(System.Reflection.MethodInfo,System.Object,System.Boolean)
-  name: MethodDelegate<DelegateType>(MethodInfo, Object, Boolean)
-  href: api/HarmonyLib.AccessTools.html#HarmonyLib_AccessTools_MethodDelegate__1_System_Reflection_MethodInfo_System_Object_System_Boolean_
-  commentId: M:HarmonyLib.AccessTools.MethodDelegate``1(System.Reflection.MethodInfo,System.Object,System.Boolean)
-  name.vb: MethodDelegate(Of DelegateType)(MethodInfo, Object, Boolean)
-  fullName: HarmonyLib.AccessTools.MethodDelegate<DelegateType>(System.Reflection.MethodInfo, System.Object, System.Boolean)
-  fullName.vb: HarmonyLib.AccessTools.MethodDelegate(Of DelegateType)(System.Reflection.MethodInfo, System.Object, System.Boolean)
-  nameWithType: AccessTools.MethodDelegate<DelegateType>(MethodInfo, Object, Boolean)
-  nameWithType.vb: AccessTools.MethodDelegate(Of DelegateType)(MethodInfo, Object, Boolean)
+- uid: HarmonyLib.AccessTools.MethodDelegate``1(System.Reflection.MethodInfo,System.Object,System.Boolean,System.Type[])
+  name: MethodDelegate<DelegateType>(MethodInfo, Object, Boolean, Type[])
+  href: api/HarmonyLib.AccessTools.html#HarmonyLib_AccessTools_MethodDelegate__1_System_Reflection_MethodInfo_System_Object_System_Boolean_System_Type___
+  commentId: M:HarmonyLib.AccessTools.MethodDelegate``1(System.Reflection.MethodInfo,System.Object,System.Boolean,System.Type[])
+  name.vb: MethodDelegate(Of DelegateType)(MethodInfo, Object, Boolean, Type())
+  fullName: HarmonyLib.AccessTools.MethodDelegate<DelegateType>(System.Reflection.MethodInfo, System.Object, System.Boolean, System.Type[])
+  fullName.vb: HarmonyLib.AccessTools.MethodDelegate(Of DelegateType)(System.Reflection.MethodInfo, System.Object, System.Boolean, System.Type())
+  nameWithType: AccessTools.MethodDelegate<DelegateType>(MethodInfo, Object, Boolean, Type[])
+  nameWithType.vb: AccessTools.MethodDelegate(Of DelegateType)(MethodInfo, Object, Boolean, Type())
 - uid: HarmonyLib.AccessTools.MethodDelegate``1(System.String,System.Object,System.Boolean)
   name: MethodDelegate<DelegateType>(String, Object, Boolean)
   href: api/HarmonyLib.AccessTools.html#HarmonyLib_AccessTools_MethodDelegate__1_System_String_System_Object_System_Boolean_
@@ -3536,6 +3536,70 @@ references:
   isSpec: "True"
   fullName: HarmonyLib.CodeMatcher.Pos
   nameWithType: CodeMatcher.Pos
+- uid: HarmonyLib.CodeMatcher.PrepareMatchEndBackwards(HarmonyLib.CodeMatch[])
+  name: PrepareMatchEndBackwards(CodeMatch[])
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchEndBackwards_HarmonyLib_CodeMatch___
+  commentId: M:HarmonyLib.CodeMatcher.PrepareMatchEndBackwards(HarmonyLib.CodeMatch[])
+  name.vb: PrepareMatchEndBackwards(CodeMatch())
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchEndBackwards(HarmonyLib.CodeMatch[])
+  fullName.vb: HarmonyLib.CodeMatcher.PrepareMatchEndBackwards(HarmonyLib.CodeMatch())
+  nameWithType: CodeMatcher.PrepareMatchEndBackwards(CodeMatch[])
+  nameWithType.vb: CodeMatcher.PrepareMatchEndBackwards(CodeMatch())
+- uid: HarmonyLib.CodeMatcher.PrepareMatchEndBackwards*
+  name: PrepareMatchEndBackwards
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchEndBackwards_
+  commentId: Overload:HarmonyLib.CodeMatcher.PrepareMatchEndBackwards
+  isSpec: "True"
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchEndBackwards
+  nameWithType: CodeMatcher.PrepareMatchEndBackwards
+- uid: HarmonyLib.CodeMatcher.PrepareMatchEndForward(HarmonyLib.CodeMatch[])
+  name: PrepareMatchEndForward(CodeMatch[])
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchEndForward_HarmonyLib_CodeMatch___
+  commentId: M:HarmonyLib.CodeMatcher.PrepareMatchEndForward(HarmonyLib.CodeMatch[])
+  name.vb: PrepareMatchEndForward(CodeMatch())
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchEndForward(HarmonyLib.CodeMatch[])
+  fullName.vb: HarmonyLib.CodeMatcher.PrepareMatchEndForward(HarmonyLib.CodeMatch())
+  nameWithType: CodeMatcher.PrepareMatchEndForward(CodeMatch[])
+  nameWithType.vb: CodeMatcher.PrepareMatchEndForward(CodeMatch())
+- uid: HarmonyLib.CodeMatcher.PrepareMatchEndForward*
+  name: PrepareMatchEndForward
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchEndForward_
+  commentId: Overload:HarmonyLib.CodeMatcher.PrepareMatchEndForward
+  isSpec: "True"
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchEndForward
+  nameWithType: CodeMatcher.PrepareMatchEndForward
+- uid: HarmonyLib.CodeMatcher.PrepareMatchStartBackwards(HarmonyLib.CodeMatch[])
+  name: PrepareMatchStartBackwards(CodeMatch[])
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchStartBackwards_HarmonyLib_CodeMatch___
+  commentId: M:HarmonyLib.CodeMatcher.PrepareMatchStartBackwards(HarmonyLib.CodeMatch[])
+  name.vb: PrepareMatchStartBackwards(CodeMatch())
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchStartBackwards(HarmonyLib.CodeMatch[])
+  fullName.vb: HarmonyLib.CodeMatcher.PrepareMatchStartBackwards(HarmonyLib.CodeMatch())
+  nameWithType: CodeMatcher.PrepareMatchStartBackwards(CodeMatch[])
+  nameWithType.vb: CodeMatcher.PrepareMatchStartBackwards(CodeMatch())
+- uid: HarmonyLib.CodeMatcher.PrepareMatchStartBackwards*
+  name: PrepareMatchStartBackwards
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchStartBackwards_
+  commentId: Overload:HarmonyLib.CodeMatcher.PrepareMatchStartBackwards
+  isSpec: "True"
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchStartBackwards
+  nameWithType: CodeMatcher.PrepareMatchStartBackwards
+- uid: HarmonyLib.CodeMatcher.PrepareMatchStartForward(HarmonyLib.CodeMatch[])
+  name: PrepareMatchStartForward(CodeMatch[])
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchStartForward_HarmonyLib_CodeMatch___
+  commentId: M:HarmonyLib.CodeMatcher.PrepareMatchStartForward(HarmonyLib.CodeMatch[])
+  name.vb: PrepareMatchStartForward(CodeMatch())
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchStartForward(HarmonyLib.CodeMatch[])
+  fullName.vb: HarmonyLib.CodeMatcher.PrepareMatchStartForward(HarmonyLib.CodeMatch())
+  nameWithType: CodeMatcher.PrepareMatchStartForward(CodeMatch[])
+  nameWithType.vb: CodeMatcher.PrepareMatchStartForward(CodeMatch())
+- uid: HarmonyLib.CodeMatcher.PrepareMatchStartForward*
+  name: PrepareMatchStartForward
+  href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_PrepareMatchStartForward_
+  commentId: Overload:HarmonyLib.CodeMatcher.PrepareMatchStartForward
+  isSpec: "True"
+  fullName: HarmonyLib.CodeMatcher.PrepareMatchStartForward
+  nameWithType: CodeMatcher.PrepareMatchStartForward
 - uid: HarmonyLib.CodeMatcher.Remaining
   name: Remaining
   href: api/HarmonyLib.CodeMatcher.html#HarmonyLib_CodeMatcher_Remaining
@@ -6625,6 +6689,45 @@ references:
   isSpec: "True"
   fullName: HarmonyLib.Traverse.GetValueType
   nameWithType: Traverse.GetValueType
+- uid: HarmonyLib.Traverse.IsField
+  name: IsField
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsField
+  commentId: P:HarmonyLib.Traverse.IsField
+  fullName: HarmonyLib.Traverse.IsField
+  nameWithType: Traverse.IsField
+- uid: HarmonyLib.Traverse.IsField*
+  name: IsField
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsField_
+  commentId: Overload:HarmonyLib.Traverse.IsField
+  isSpec: "True"
+  fullName: HarmonyLib.Traverse.IsField
+  nameWithType: Traverse.IsField
+- uid: HarmonyLib.Traverse.IsProperty
+  name: IsProperty
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsProperty
+  commentId: P:HarmonyLib.Traverse.IsProperty
+  fullName: HarmonyLib.Traverse.IsProperty
+  nameWithType: Traverse.IsProperty
+- uid: HarmonyLib.Traverse.IsProperty*
+  name: IsProperty
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsProperty_
+  commentId: Overload:HarmonyLib.Traverse.IsProperty
+  isSpec: "True"
+  fullName: HarmonyLib.Traverse.IsProperty
+  nameWithType: Traverse.IsProperty
+- uid: HarmonyLib.Traverse.IsWriteable
+  name: IsWriteable
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsWriteable
+  commentId: P:HarmonyLib.Traverse.IsWriteable
+  fullName: HarmonyLib.Traverse.IsWriteable
+  nameWithType: Traverse.IsWriteable
+- uid: HarmonyLib.Traverse.IsWriteable*
+  name: IsWriteable
+  href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IsWriteable_
+  commentId: Overload:HarmonyLib.Traverse.IsWriteable
+  isSpec: "True"
+  fullName: HarmonyLib.Traverse.IsWriteable
+  nameWithType: Traverse.IsWriteable
 - uid: HarmonyLib.Traverse.IterateFields(System.Object,System.Action{HarmonyLib.Traverse})
   name: IterateFields(Object, Action<Traverse>)
   href: api/HarmonyLib.Traverse.html#HarmonyLib_Traverse_IterateFields_System_Object_System_Action_HarmonyLib_Traverse__

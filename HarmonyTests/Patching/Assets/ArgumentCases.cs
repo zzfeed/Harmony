@@ -2,6 +2,7 @@ using HarmonyLib;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
 namespace HarmonyLibTests.Assets
@@ -141,6 +142,28 @@ namespace HarmonyLibTests.Assets
 		{
 			log.Add(foo2.val + "2");
 			log.Add(foo3);
+		}
+	}
+
+	public class NullableResults
+	{
+		private string s = "foo";
+
+		[MethodImpl(MethodImplOptions.NoInlining)]
+		public bool? Method()
+		{
+			_ = s;
+			return false;
+		}
+	}
+
+	[HarmonyPatch(typeof(NullableResults), nameof(NullableResults.Method))]
+	public static class NullableResultsPatch
+	{
+		public static bool Prefix(ref bool? __result)
+		{
+			__result = true;
+			return false;
 		}
 	}
 
